@@ -36,6 +36,11 @@
     font-weight: bolder;
     margin-bottom: 5px;
 }
+@media screen and (max-width: 900px){
+    .typing-text{
+        font-size: 2.2rem;
+    }
+}
 
 .text-container {
     display: inline-block;
@@ -325,6 +330,11 @@ h6,
         center bottom;
     background-repeat: no-repeat;
 }
+@media (min-width: 1400px) {
+    .hero-header{
+        background-size: 0,0,0,0,0,100%;
+    }
+}
 
 @media (max-width: 991.98px) {
     .hero-header {
@@ -524,12 +534,11 @@ h6,
     margin-top: 6rem;
     padding-top: 9rem;
     background:
-        url(../img/bg-top.png),
-        url(../img/map.png);
+        url(../img/bg-top.png);
     background-position:
-        center top,
-        center center;
+        center top;
     background-repeat: no-repeat;
+    background-size:100%;
 }
 
 .footer .btn.btn-social {
